@@ -1,11 +1,11 @@
 # Site settings
 author: Karl Van Burkleo
-title: 
+title: Keystrokes
 header-img: img/home-bg.png
 email: karl.vanburkleo@gmail.com
 copyright_name: Karl Van Burkleo
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A look into why I took the jump to become a data scientist. 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AudioElevators
