@@ -14,7 +14,7 @@ I tell my Google Hub to turn off my alarm and I groggily slump out of my bed. Th
 
 After a cup of coffee, I grab my guitar and throw it in the trunk of my car before I head off down the driveway of my apartment and towards Christ the King, where I primarly manage operations. Also, I run their websites. Oh, and design their graphics. Plus, I lead worship on occasion, which is why my guitar is in the trunk on this particular Sunday. 
 
-*God, I'm so tired of this.*
+*God, I'm so tired of this. *
 
 Before anyone else shows up, the sun peeks past the horizon as I unload everything you would need for a pop up church. Sound equipment, projector screens, hospitality carts, and a million other things I've seen every Sunday for the past year. 
 
