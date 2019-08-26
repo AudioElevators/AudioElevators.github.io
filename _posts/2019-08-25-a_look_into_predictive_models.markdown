@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Look Into Predictive Models"
-date:       2019-08-26 01:42:41 +0000
+date:       2019-08-25 21:42:42 -0400
 permalink:  a_look_into_predictive_models
 ---
 
@@ -15,7 +15,7 @@ Before I began the coding process, I watched a handful of videos on the project.
 
 And cleaning.
 
-   and cleaning.
+   And cleaning.
 
         And... cleaning.
 
@@ -25,9 +25,10 @@ Here's some of the stuff I did to mend this rocky relationship:
 
 *Dealing with ?'s by replacing them with the median of the column.*
 
-`df['sqft_basement'].replace('?', np.nan , inplace=True)`
-
-`df['sqft_basement'].fillna(df['sqft_basement'].median(), inplace=True)`
+```
+df['sqft_basement'].replace('?', np.nan , inplace=True)
+df['sqft_basement'].fillna(df['sqft_basement'].median(), inplace=True)
+```
 
 The square footage of the basement was the trickiest column I had to deal with because I had to replace ?'s with NaNs and *then* fill these NaNs with the median, allowing me to keep the column and its data for EDA. I ended up not using this guy in my model due to its high p-value, but I wouldn't have known its insignificance if I hadn't cleaned it up and explored it first!
 
@@ -39,15 +40,13 @@ The grade column was a categorical variable since each house fit in a grade (cat
 
 *...and by using one-hot encoding.*
 
-`waterfront = ["Yes", "No", "Yes", "No", "Yes", "Yes", "No", "No",]`
-
-`waterfront_series = pd.Series(waterfront)`
-
-`cat_waterfront = waterfront_series.astype('category')`
-
-`cat_waterfront`
-
-`pd.get_dummies(cat_waterfront)`
+```
+waterfront = ["Yes", "No", "Yes", "No", "Yes", "Yes", "No", "No",]
+waterfront_series = pd.Series(waterfront)
+cat_waterfront = waterfront_series.astype('category')
+cat_waterfront
+pd.get_dummies(cat_waterfront)
+```
 
 With waterfront being a categorical variable with only two categories, waterfront or no waterfront, I used one-hot encoding to make them 1s and 0s, respectively. 
 
