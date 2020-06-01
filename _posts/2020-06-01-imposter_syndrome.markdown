@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Imposter Syndrome"
-date:       2020-06-01 05:07:33 +0000
+date:       2020-06-01 01:07:34 -0400
 permalink:  imposter_syndrome
 ---
 
